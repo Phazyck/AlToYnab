@@ -93,7 +93,7 @@ let convertFile : string -> unit =
 
         file
         |> readLines
-        |> skipHeader
+//        |> skipHeader
         |> convertLines
         |> toText
         |> addHeader
